@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes da Tarefa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="task-details">
+        <h1>Detalhes da Tarefa</h1>
+        <p><strong>Título:</strong> <span id="task-title"></span>
+            <button id="edit-title-button">Editar</button>
+            <input type="text" id="new-title" style="display:none;">
+            <button id="save-title-button" style="display:none;">Salvar</button>
+        </p>
+        <p><strong>Descrição:</strong> <span id="task-description"></span>
+            <button id="edit-description-button">Editar</button>
+            <input type="text" id="new-description" style="display:none;">
+            <button id="save-description-button" style="display:none;">Salvar</button>
+        </p>
+        <p><strong>Data de Vencimento:</strong> <span id="task-due-date"></span>
+            <button id="edit-due-date-button">Editar</button>
+            <input type="date" id="new-due-date" style="display:none;">
+            <button id="save-due-date-button" style="display:none;">Salvar</button>
+        </p>
+        <p><strong>Concluída:</strong> <span id="task-completed"></span>
+            <button id="edit-completed-button">Editar</button>
+            <input type="checkbox" id="new-completed" style="display:none;">
+            <button id="save-completed-button" style="display:none;">Salvar</button>
+        </p>
+    </div>
+    <div id = "backButtonDiv">
+        <button id = "backButton" >Voltar</button>
+    </div>
+    <script src="task.js"></script>
+</body>
+</html>
